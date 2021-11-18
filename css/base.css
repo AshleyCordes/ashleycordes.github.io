@@ -6032,12 +6032,12 @@ html.is-reveal-open body {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1rem;
   flex-wrap: wrap;
 }
 .top-bar,
 .top-bar ul {
-  background-color: #e6e6e6;
+  background-color: #fefefe;
 }
 .top-bar input {
   max-width: 200px;
@@ -6532,4 +6532,12 @@ html.is-reveal-open body {
 
 .is-stuck .hide-for-sticky {
   display: none;
+}
+
+.top-bar a {
+  color: #555555;
+}
+.top-bar a:hover {
+  color: #000000;
+  text-decoration: underline;
 }

@@ -1,6 +1,15 @@
 //import my custom settings and everything foundation has
 @use 'sass:map';
 
+@import 'settings';
 @import 'foundation';
 @include foundation-everything;
+
+.top-bar a {
+        color: #555555;
+        &:hover { 
+                color: #000000;
+                text-decoration: underline;
+        }
+}
 
