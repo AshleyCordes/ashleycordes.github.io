@@ -1,0 +1,29 @@
+{
+  "name": "mhuff17861.github.io",
+  "version": "1.0.0",
+  "description": "Website baseline for Cordes",
+  "main": "index.js",
+  "dependencies": {
+    "foundation-sites": "^6.7.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "jquery": "^3.6.0",
+    "sass": "^1.43.4",
+    "what-input": "^5.2.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhuff17861/mhuff17861.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhuff17861/mhuff17861.github.io/issues"
+  },
+  "homepage": "https://github.com/mhuff17861/mhuff17861.github.io#readme"
+}

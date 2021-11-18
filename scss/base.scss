@@ -1,0 +1,6 @@
+//import my custom settings and everything foundation has
+@use 'sass:map';
+
+@import 'foundation';
+@include foundation-everything;
+
