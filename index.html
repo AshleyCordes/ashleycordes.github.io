@@ -8,13 +8,27 @@
     <link rel="stylesheet" href="css/base.css" />
   </head>
   <body>
+        <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+                <div class="title-bar-title">AC</div>
+          </div>
+          <div class="top-bar" id="main-nav">
+                <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                                <li class="menu-text">Ashley Cordes</li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                        </ul>
+                </div>
+          </div>
+
         <div id="content">
-                <p>Hello World!</p>        
         </div>
 
-    <script src="{% static 'js/jquery.min.js' %}"></script>
-    <script src="{% static 'js/what-input.min.js' %}"></script>
-    <script src="{% static 'js/foundation.min.js' %}"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
