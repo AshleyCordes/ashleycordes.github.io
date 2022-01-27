@@ -7150,3 +7150,9 @@ html.is-reveal-open body {
   color: #000000;
   text-decoration: underline;
 }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

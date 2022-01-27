@@ -11,9 +11,14 @@
 
 .top-bar a {
         color: #555555;
-        &:hover { 
+        &:hover {
                 color: #000000;
                 text-decoration: underline;
         }
 }
 
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
