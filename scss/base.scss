@@ -1,6 +1,10 @@
 //import my custom settings and everything foundation has
 @use 'sass:map';
 
+@import 'motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
 @import 'settings';
 @import 'foundation';
 @include foundation-everything;

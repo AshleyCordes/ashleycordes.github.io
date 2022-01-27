@@ -12,7 +12,9 @@
     "sass": "^1.43.4",
     "what-input": "^5.2.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "motion-ui": "^2.0.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

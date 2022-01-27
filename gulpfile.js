@@ -6,7 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 //Define pathnames
 const sassSrc = 'scss/base.scss' 
 const sassDest = 'css/'
-const sassInc = [ 'node_modules/foundation-sites/scss' ]
+const sassInc = [ 'node_modules/foundation-sites/scss', 'node_modules/motion-ui/src' ]
 const jsSrc = [ 'node_modules/foundation-sites/dist/js/foundation.min.*', 'node_modules/jquery/dist/jquery.min.*', 'node_modules/what-input/dist/what-input.min.*' ]
 const jsDest = 'js/'
 
