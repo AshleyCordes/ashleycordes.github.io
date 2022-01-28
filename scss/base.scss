@@ -10,9 +10,9 @@
 @include foundation-everything;
 
 .top-bar a {
-        color: #555555;
+        color: $dark-gray;
         &:hover {
-                color: #000000;
+                color: $black;
                 text-decoration: underline;
         }
 }
@@ -21,4 +21,17 @@
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.accordion-title {
+        color: $black;
+        text-decoration: none;
+        &:hover {
+                color: $black;
+                text-decoration: underline;
+        }
+        &:focus {
+                color: $black;
+                text-decoration: none;
+        }
 }

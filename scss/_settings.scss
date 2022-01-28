@@ -239,7 +239,7 @@ $accordion-background: $white;
 $accordion-plusminus: true;
 $accordion-plus-content: '\002B';
 $accordion-minus-content: '\2013';
-$accordion-title-font-size: rem-calc(12);
+$accordion-title-font-size: rem-calc(20);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
@@ -845,11 +845,11 @@ $thumbnail-radius: $global-radius;
 // 53. Title Bar
 // -------------
 
-$titlebar-background: $black;
-$titlebar-color: $white;
+$titlebar-background: $white;
+$titlebar-color: $black;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
+$titlebar-icon-color: $black;
 $titlebar-icon-color-hover: $medium-gray;
 $titlebar-icon-spacing: 0.25rem;
 
@@ -892,4 +892,3 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-
