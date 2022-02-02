@@ -7169,3 +7169,7 @@ html.is-reveal-open body {
   color: #0a0a0a;
   text-decoration: none;
 }
+
+.card-header {
+  font-size: 1.8em;
+}
