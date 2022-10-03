@@ -1,4 +1,4 @@
-# mhuff17861.github.io
+# ashleycordes.github.io
 
 This project is a static portfolio website built with foundation and gulp.
 
@@ -17,4 +17,3 @@ To setup the project:
   * transpiles foundation SCSS based on the contents of the scss/ directory
 * devJS
   * transfers over all necessary javascript for foundation to work
-
