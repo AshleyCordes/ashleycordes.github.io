@@ -7173,3 +7173,37 @@ html.is-reveal-open body {
 .card-header {
   font-size: 1.8em;
 }
+
+#main-about {
+	order: 2;
+}
+
+#main-headshot {
+	order: 1;
+}
+
+@media print, screen and (min-width: 64em) {
+	#main-about {
+		order: 1;
+	}
+
+	#main-headshot {
+		order: 2;
+	}
+}
+
+.callout:has(#main-about) {
+	--callout-margin-fix: 0.5rem;
+	margin-right: var(--callout-margin-fix);
+	margin-left: var(--callout-margin-fix);
+}
+
+@media print, screen and (min-width: 40em) {
+	.callout:has(#main-about) {
+		--callout-margin-fix: 0;
+	}
+}
+
+.title-bar {
+	margin-bottom: 0.5rem;
+}
